@@ -9,12 +9,16 @@ public class FundoDeInvestimento {
 
 
 }
+
 //
+
 public abstract class Feedback{
 public void avisar() {
 }
 }
+
 //
+
 public class grafico extends Feedback {
 
 	@Override
@@ -25,7 +29,9 @@ public class grafico extends Feedback {
 	
 
 }
+
 //
+
 public class mensagem extends Feedback {
 
 public void  avisar() {
@@ -33,7 +39,9 @@ public void  avisar() {
 }
 
 }
+
 //
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
