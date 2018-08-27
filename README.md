@@ -48,21 +48,13 @@ import java.util.List;
 public class n {
 
 	public static void main(String[] args) {
-		List<FundoDeInvestimento> fi = new ArrayList<FundoDeInvestimento>();
-		grafico f1 = new grafico();
-        mensagem f2 = new mensagem();
-        
-        
-        System.out.println(fi);
-     
-	}
-	 public static void imprimir(List<FundoDeInvestimento> fi) {
-		 for (FundoDeInvestimento f : fi) {
-
-	            System.out.println(fi);
-	           
+		public static void main(String[] args) {
+		 FundoDeInvestimento fi = new FundoDeInvestimento;
+		     fi.notificar(new grafico());
+		      fi.notificar(new mensagem());
+		
 	        }
 	    }
-}
+	        
 
 
